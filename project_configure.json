@@ -1,11 +1,15 @@
 {
- "compile_tool": "rm -rf dist; python3 setup.py sdist",
- "compile_filename": "setup.py",
- "executable_filename": "twine upload dist/*",
- "input_file": "",
- "template_root": "",
- "server_target": [
-  "",
-  "22"
- ]
+    "compile_tool": "rm -rf dist; python3 setup.py sdist",
+    "compile_filename": "setup.py",
+    "executable_filename": "twine upload dist/*",
+    "input_file": "",
+    "template_root": "",
+    "server_targets": [
+        {
+            "user": "",
+            "host": "",
+            "path": "",
+            "port": "22"
+        }
+    ]
 }
