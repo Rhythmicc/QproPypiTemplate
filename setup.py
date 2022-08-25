@@ -2,8 +2,7 @@ from setuptools import setup, find_packages
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
-with open("VERSION", "r") as f:
-    VERSION = f.read().strip()
+VERSION = '0.0.1'
 
 setup(
     name='QproPypiTemplate',
